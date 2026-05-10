@@ -78,7 +78,7 @@ plt.show()
 
 
 
-
+print(classification_report(y_test, y_pred, target_names=class_names))
 
 
   
